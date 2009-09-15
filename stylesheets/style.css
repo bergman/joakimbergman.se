@@ -7,11 +7,15 @@
 
 body {
 	color: white;
-	font-family: monospace;
 	background: #000 url("../images/cappuccino.jpg") no-repeat 50% 100px;
 	width: 600px;
 	margin: 100px auto 0 auto;
 	position: relative;
+	font-size: 62.5%;
+}
+
+p#content {
+	font: 1.6em monospace;
 }
 
 a {
@@ -51,115 +55,97 @@ div#twitter:hover .message {
 
 .message .body {
 	padding: 9px 9px 9px 18px;
-	/*word-wrap: break-word;*/
-	text-shadow: #ccc 0px 1px 1px;
-	/*overflow: auto;*/
+	text-shadow: #bbb 0 1px 1px;
 	color: #333;
-	font: 11px "Helvetica Neue", helvetica, sans-serif;
+	font: 1.1em "Helvetica Neue", helvetica, sans-serif;
 }
 
-.message .time {
-	font-size: 9px;
+.message .topleft, .message .top, .message .topright, .message .left, .message .middle, .message .right, .message .bottomleft, .message .bottom, .message .bottomright {
 	position: absolute;
-	bottom: -2px;
-	text-align: center;
-	width: 100%;
-	color: #c7c7c7;
-	visibility: hidden;
+	z-index: -1;
 }
 
-.message:hover .time {
-	visibility: visible;
+.message .top, .message .bottom {
+	background: url("../images/bubbla_top_bottom.png") repeat-x;
+	right: 14px;
+	left: 24px;
+}
+
+.message .topleft, .message .topright, .message .bottomleft, .message .bottomright {
+	background: url("../images/bubbla.png") no-repeat;
+}
+
+.message .left, .message .right {
+	background: url("../images/bubbla_left_right.png") top repeat-y;
+	top: 14px;
+	bottom: 15px;
+}
+
+.message .topleft, .message .top, .message .topright {
+	height: 14px;
+	top: 0;
 }
 
 .message .topleft {
-	background: url("../images/bubbla.png") top left no-repeat;
 	width: 24px;
-	height: 14px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: -1;
+	left: 0;
+	background-position: left top;
 }
 
 .message .top {
-	background: url("../images/bubbla_top_bottom.png") top right repeat-x;
-	height: 14px;
-	position: absolute;
-	top: 0px;
-	right: 14px;
-	left: 24px;
-	z-index: -1;
+	background-position: left;
 }
 
 .message .topright {
-	background: url("../images/bubbla.png") no-repeat right top;
 	width: 14px;
-	height: 16px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	z-index: -1;
+	right: 0;
+	background-position: right top;
 }
 
 .message .left {
-	background: url("../images/bubbla_left_right.png") top left repeat-y;
 	width: 24px;
-	position: absolute;
 	left: 10px;
 	top: 14px;
 	bottom: 15px;
-	z-index: -1;
+	background-position: left;
 }
 
 .message .middle {
 	background: url("../images/bubbla_middle.png") top left repeat;
-	position: absolute;
 	left: 24px;
 	right: 14px;
 	top: 13px;
 	bottom: 15px;
-	z-index: -1;
 }
 
 .message .right {
-	background: url("../images/bubbla_left_right.png") top right repeat-y;
 	width: 14px;
-	position: absolute;
-	right: 0px;
+	right: 0;
 	top: 14px;
 	bottom: 15px;
-	z-index: -1;
+	background-position: right;
 }
 
 .message .bottomleft {
-	background: url("../images/bubbla.png") no-repeat left bottom;
 	width: 24px;
 	height: 15px;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	z-index: -1;
+	bottom: 0;
+	left: 0;
+	background-position: left bottom;
 }
 
 .message .bottom {
-	background: url("../images/bubbla_top_bottom.png") bottom right repeat-x;
 	height: 15px;
-	position: absolute;
-	bottom: 0px;
-	right: 14px;
-	left: 24px;
-	z-index: -1;
+	bottom: 0;
+	background-position: right;
 }
 
 .message .bottomright {
-	background: url("../images/bubbla.png") no-repeat right bottom;
 	width: 14px;
 	height: 15px;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	z-index: -1;
+	bottom: 0;
+	right: 0;
+	background-position: right bottom;
 }
 
 /* @end */
