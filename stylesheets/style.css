@@ -42,7 +42,7 @@ div#twitter a:hover {
 }
 
 .message {
-	display: block;
+	display: none;
 	position: relative;
 	bottom: 50px;
 	left: 54px;
