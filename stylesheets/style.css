@@ -42,7 +42,7 @@ div#twitter a:hover {
 }
 
 .message {
-	display: none;
+	display: block;
 	position: relative;
 	bottom: 50px;
 	left: 54px;
@@ -93,7 +93,7 @@ div#twitter:hover .message {
 }
 
 .message .top {
-	background-position: left;
+	background-position: left top;
 }
 
 .message .topright {
@@ -137,7 +137,7 @@ div#twitter:hover .message {
 .message .bottom {
 	height: 15px;
 	bottom: 0;
-	background-position: right;
+	background-position: right bottom;
 }
 
 .message .bottomright {
