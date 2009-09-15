@@ -30,11 +30,15 @@ div#twitter {
 	left: 43px;
 }
 
+div#twitter a, .message .top, .message .bottom, .message .topleft, .message .topright, .message .bottomleft, .message .bottomright {
+	background: url("../images/twitter.png");
+}
+
 div#twitter a {
 	width: 48px;
 	height: 42px;
 	display: block;
-	background: url("../images/twitter.png") left top;
+	background-position: left top;
 }
 
 div#twitter a:hover {
@@ -66,17 +70,16 @@ div#twitter:hover .message {
 }
 
 .message .top, .message .bottom {
-	background: url("../images/twitter.png") repeat-x;
 	right: 10px;
 	left: 20px;
+	background-repeat: repeat-x;
 }
 
 .message .topleft, .message .topright, .message .bottomleft, .message .bottomright {
-	background: url("../images/twitter.png") no-repeat;
+	background-repeat: no-repeat;
 }
 
 .message .left, .message .right {
-	/*background: url("../images/bubbla_left_right.png") top repeat-y;*/
 	top: 14px;
 	bottom: 15px;
 }
