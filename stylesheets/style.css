@@ -34,17 +34,17 @@ div#twitter a {
 	width: 48px;
 	height: 42px;
 	display: block;
-	background: url("../images/twitter.png") 0 0;
+	background: url("../images/twitter.png") left top;
 }
 
 div#twitter a:hover {
-	background-position: 48px 0;
+	background-position: -48px 0px;
 }
 
 .message {
 	display: none;
 	position: relative;
-	bottom: 50px;
+	top: -45px;
 	left: 54px;
 	max-width: 400px;
 }
@@ -55,8 +55,8 @@ div#twitter:hover .message {
 
 .message .body {
 	padding: 9px 9px 9px 18px;
-	text-shadow: #bbb 0 1px 1px;
-	color: #333;
+	text-shadow: #a4a4a4 2px 2px 2px;
+	color: #2f2f2f;
 	font: 1.1em "Helvetica Neue", helvetica, sans-serif;
 }
 
@@ -67,12 +67,12 @@ div#twitter:hover .message {
 
 .message .top, .message .bottom {
 	background: url("../images/bubbla_top_bottom.png") repeat-x;
-	right: 14px;
-	left: 24px;
+	right: 10px;
+	left: 20px;
 }
 
 .message .topleft, .message .topright, .message .bottomleft, .message .bottomright {
-	background: url("../images/bubbla.png") no-repeat;
+	background: url("../images/twitter.png") no-repeat;
 }
 
 .message .left, .message .right {
@@ -87,9 +87,9 @@ div#twitter:hover .message {
 }
 
 .message .topleft {
-	width: 24px;
+	width: 20px;
 	left: 0;
-	background-position: left top;
+	background-position: -96px top;
 }
 
 .message .top {
@@ -97,14 +97,14 @@ div#twitter:hover .message {
 }
 
 .message .topright {
-	width: 14px;
+	width: 10px;
 	right: 0;
 	background-position: right top;
 }
 
 .message .left {
-	width: 24px;
-	left: 10px;
+	width: 20px;
+	left: 9px;
 	top: 14px;
 	bottom: 15px;
 	background-position: left;
@@ -112,8 +112,8 @@ div#twitter:hover .message {
 
 .message .middle {
 	background: url("../images/bubbla_middle.png") top left repeat;
-	left: 24px;
-	right: 14px;
+	left: 20px;
+	right: 10px;
 	top: 13px;
 	bottom: 15px;
 }
@@ -127,11 +127,11 @@ div#twitter:hover .message {
 }
 
 .message .bottomleft {
-	width: 24px;
+	width: 20px;
 	height: 15px;
 	bottom: 0;
 	left: 0;
-	background-position: left bottom;
+	background-position: -96px -13px;
 }
 
 .message .bottom {
@@ -141,11 +141,11 @@ div#twitter:hover .message {
 }
 
 .message .bottomright {
-	width: 14px;
+	width: 10px;
 	height: 15px;
 	bottom: 0;
 	right: 0;
-	background-position: right bottom;
+	background-position: right -13px;
 }
 
 /* @end */
