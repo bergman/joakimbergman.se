@@ -46,7 +46,9 @@ div#twitter a:hover {
 }
 
 div#twitter .message {
+	z-index: 1;
 	opacity: 0;
+	filter: alpha(opacity=0);
 	position: relative;
 	margin-top: -45px;
 	margin-left: 54px;
@@ -55,8 +57,8 @@ div#twitter .message {
 }
 
 div#twitter:hover .message {
+	filter: alpha(opacity=100);
 	opacity: 0.97;
-	filter: alpha(opacity=97);
 }
 
 div#twitter .message .body {
