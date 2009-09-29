@@ -179,16 +179,28 @@ div#lyssna ul#lastfm li {
 	display: inline;
 }
 
-div#lyssna ul#lastfm li img {
+div#lyssna ul#lastfm li a {
+	display: block;
+	float: left;
+	width: 126px;
+	height: 126px;
 	opacity: 0.05;
 	filter: alpha(opacity=5);
 	margin: 8px;
 	-webkit-transition: opacity 0.4s ease-in-out;
 	-webkit-border-radius: 63px;
 	-moz-border-radius: 63px;
+	font: 200px/140px "Helvetica Neue", helvetica, sans-serif;
+	color: black;
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+	text-shadow: #000 0 0 1px;
+	text-align: right;
+	overflow: hidden;
+	font-weight: lighter;
 }
 
-div#lyssna ul#lastfm li img:hover {
+div#lyssna ul#lastfm li a:hover {
 	opacity: 0.9;
 	filter: alpha(opacity=90);
 }
