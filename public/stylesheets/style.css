@@ -38,23 +38,23 @@ div#twitter {
 	left: 43px;
 }
 
-div#twitter a, div#twitter .message .top, div#twitter .message .bottom, div#twitter .message .topleft, div#twitter .message .topright, div#twitter .message .bottomleft, div#twitter .message .bottomright {
+div#twitter a#twitter_link, div#twitter .message .top, div#twitter .message .bottom, div#twitter .message .topleft, div#twitter .message .topright, div#twitter .message .bottomleft, div#twitter .message .bottomright {
 	background: url("../images/twitter.png");
 }
 
-div#twitter a {
+div#twitter a#twitter_link {
 	width: 48px;
 	height: 42px;
 	display: block;
 	background-position: left top;
 }
 
-div#twitter a:hover {
+div#twitter a#twitter_link:hover {
 	background-position: -48px 0px;
 }
 
 div#twitter .message {
-	z-index: -1;
+	z-index: 1;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	position: relative;
@@ -71,9 +71,17 @@ div#twitter:hover .message {
 
 div#twitter .message .body {
 	padding: 9px 9px 9px 18px;
-	text-shadow: #a4a4a4 2px 2px 2px;
+	text-shadow: #a3a3a3 1px 1px 2px;
 	color: #2f2f2f;
-	font: 1.1em "Helvetica Neue", helvetica, sans-serif;
+	font: 1.2em "Helvetica Neue", helvetica, sans-serif;
+}
+
+div#twitter .message .body a {
+	color: #68563e;
+}
+
+div#twitter .message .body .hash {
+	color: #777;
 }
 
 div#twitter .message .topleft, div#twitter .message .top, div#twitter .message .topright, div#twitter .message .left, div#twitter .message .middle, div#twitter .message .right, div#twitter .message .bottomleft, div#twitter .message .bottom, div#twitter .message .bottomright {
