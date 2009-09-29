@@ -1,4 +1,7 @@
-/* @override http://joakimbergman.se/stylesheets/style.css */
+/* @override 
+	http://joakimbergman/stylesheets/style.css
+	http://joakimbergman/stylesheets/style.css?1254230272
+*/
 
 * {
 	margin: 0;
@@ -11,15 +14,19 @@ body {
 	width: 600px;
 	margin: 100px auto 0 auto;
 	position: relative;
-	font-size: 62.5%;
+	font: 62.5% monospace;
 }
 
-p#content {
-	font: 1.6em monospace;
+p#header {
+	font-size: 1.6em;
 }
 
 a {
 	color: #a58963;
+}
+
+a img {
+	border: none;
 }
 
 /* @group twitter */
@@ -155,6 +162,37 @@ div#twitter .message .bottomright {
 	bottom: 0;
 	right: 0;
 	background-position: right -13px;
+}
+
+/* @end */
+
+/* @group lyssna */
+
+div#lyssna {
+	position: absolute;
+	top: 250px;
+	left: 0px;
+	font-size: 1.4em;
+}
+
+div#lyssna ul#lastfm li {
+	display: inline;
+	list-style: none;
+}
+
+div#lyssna ul#lastfm li img {
+	opacity: 0.05;
+	margin: 9px;
+	-webkit-transition-property: opacity, -webkit-box-shadow;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-box-shadow: #a58963 0 0 10px, #a58963 0 0 10px, #a58963 0 0 10px, #a58963 0 0 5px, #a58963 0 0 10px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+}
+
+div#lyssna ul#lastfm li img:hover {
+	opacity: 0.9;
 }
 
 /* @end */

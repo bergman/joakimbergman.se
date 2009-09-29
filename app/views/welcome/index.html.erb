@@ -1,0 +1,12 @@
+<% content_for :tweet do %>
+  <%= @tweet %>
+<% end %>
+<% content_for :lastfm do %>
+  <ul id="lastfm">
+    <% @lastfm_artists.each do |artist| %>
+      <li>
+        <a href="<%= artist["url"] %>"><img title="<%=h artist["name"] %>" alt="<%=h artist["name"] %>" src="http://userserve-ak.last.fm/serve/126s/<%= File.basename artist["image"][1]["#text"] %>" /></a>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

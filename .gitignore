@@ -4,6 +4,5 @@ tmp/**/*
 doc/api
 doc/app
 config/database.yml
-.DS_Store
 config/flickr.yml
 config/lastfm.yml
