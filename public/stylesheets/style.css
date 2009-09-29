@@ -27,6 +27,7 @@ a img {
 h1, h2, h3 {
     font-weight: normal;
     text-transform: uppercase;
+    font-size: 1em;
 }
 
 /* @group twitter */
