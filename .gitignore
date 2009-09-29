@@ -4,5 +4,3 @@ tmp/**/*
 doc/api
 doc/app
 config/database.yml
-config/flickr.yml
-config/lastfm.yml
