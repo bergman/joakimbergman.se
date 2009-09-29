@@ -9,11 +9,12 @@ body {
 	width: 600px;
 	margin: 100px auto 0 auto;
 	position: relative;
-	font: 62.5% monospace;
+	font: 62.5%/2em courier, monospace;
+	letter-spacing: 1px;
 }
 
 p#header {
-	font-size: 1.6em;
+	font-size: 1.8em;
 }
 
 a {
@@ -22,6 +23,11 @@ a {
 
 a img {
 	border: none;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 /* @group twitter */
@@ -166,7 +172,7 @@ div#twitter .message .bottomright {
 div#lyssna {
 	position: absolute;
 	top: 200px;
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 
 div#lyssna ul#lastfm li {
@@ -176,10 +182,10 @@ div#lyssna ul#lastfm li {
 div#lyssna ul#lastfm li img {
 	opacity: 0.05;
 	filter: alpha(opacity=5);
-	margin: 9px;
+	margin: 8px;
 	-webkit-transition: opacity 0.4s ease-in-out;
-	-webkit-border-radius: 24px;
-	-moz-border-radius: 24px;
+	-webkit-border-radius: 63px;
+	-moz-border-radius: 63px;
 }
 
 div#lyssna ul#lastfm li img:hover {

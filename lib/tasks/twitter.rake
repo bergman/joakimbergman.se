@@ -10,7 +10,7 @@ namespace :twitter do
     timeline = ActiveSupport::JSON.decode(open("http://twitter.com/statuses/user_timeline/#{twitter["user"]}.json?count=1&since_id=#{last_id}").read)
     unless timeline.size == 0
       File.open(File.join(RAILS_ROOT, 'tmp', 'twitter_timeline.yml'), "w") {|f| f.puts timeline.to_yaml }
-      ActionController::Base::expire_page('/')
+      File.delete(File.join(RAILS_ROOT, 'public', 'index.html')) if File.exists? File.join(RAILS_ROOT, 'public', 'index.html')
     end
   end
 end
