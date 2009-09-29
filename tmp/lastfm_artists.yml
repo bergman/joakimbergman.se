@@ -95,7 +95,7 @@ topartists:
     url: http://www.last.fm/music/Veronica+Maggio
     mbid: a04e7da2-998b-4e36-abaa-014c00b93622
     streamable: "1"
-    playcount: "87"
+    playcount: "95"
     image: 
     - size: small
       "#text": http://userserve-ak.last.fm/serve/34/24192099.jpg
@@ -107,24 +107,6 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/252/24192099.jpg
     - size: mega
       "#text": http://userserve-ak.last.fm/serve/500/24192099/Veronica+Maggio+Och+vinnaren+r.jpg
-    "@attr": 
-      rank: "6"
-  - name: Madonna
-    url: http://www.last.fm/music/Madonna
-    mbid: 79239441-bfd5-4981-a70c-55c3f15c1287
-    streamable: "1"
-    playcount: "87"
-    image: 
-    - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/24083205.jpg
-    - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/24083205.jpg
-    - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/24083205.jpg
-    - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/24083205.jpg
-    - size: mega
-      "#text": ""
     "@attr": 
       rank: "6"
   - name: Kraftwerk
@@ -144,7 +126,25 @@ topartists:
     - size: mega
       "#text": ""
     "@attr": 
-      rank: "6"
+      rank: "7"
+  - name: Madonna
+    url: http://www.last.fm/music/Madonna
+    mbid: 79239441-bfd5-4981-a70c-55c3f15c1287
+    streamable: "1"
+    playcount: "87"
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/34/12825171.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/64/12825171.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/126/12825171.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/252/12825171.jpg
+    - size: mega
+      "#text": ""
+    "@attr": 
+      rank: "7"
   - name: Pink Floyd
     url: http://www.last.fm/music/Pink+Floyd
     mbid: 83d91898-7763-47d7-b03b-b92132375c47
@@ -152,15 +152,15 @@ topartists:
     playcount: "79"
     image: 
     - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/28958091.jpg
+      "#text": http://userserve-ak.last.fm/serve/34/8198987.jpg
     - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/28958091.jpg
+      "#text": http://userserve-ak.last.fm/serve/64/8198987.jpg
     - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/28958091.jpg
+      "#text": http://userserve-ak.last.fm/serve/126/8198987.jpg
     - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/28958091.jpg
+      "#text": http://userserve-ak.last.fm/serve/252/8198987.jpg
     - size: mega
-      "#text": http://userserve-ak.last.fm/serve/_/28958091/Pink+Floyd+++All+Five.jpg
+      "#text": ""
     "@attr": 
       rank: "9"
   - name: DJ Mehdi
@@ -188,17 +188,35 @@ topartists:
     playcount: "67"
     image: 
     - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/24469601.jpg
+      "#text": http://userserve-ak.last.fm/serve/34/3371896.jpg
     - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/24469601.jpg
+      "#text": http://userserve-ak.last.fm/serve/64/3371896.jpg
     - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/24469601.jpg
+      "#text": http://userserve-ak.last.fm/serve/126/3371896.jpg
     - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/24469601.jpg
+      "#text": http://userserve-ak.last.fm/serve/252/3371896.jpg
     - size: mega
-      "#text": http://userserve-ak.last.fm/serve/500/24469601/Sigur+Rs+j.jpg
+      "#text": http://userserve-ak.last.fm/serve/500/3371896/Sigur+Rs.jpg
     "@attr": 
       rank: "11"
+  - name: Kent
+    url: http://www.last.fm/music/Kent
+    mbid: ffb2d3e3-a4cc-48cf-8fb0-f2f846e9d7b9
+    streamable: "1"
+    playcount: "57"
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/34/310612.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/64/310612.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/126/310612.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/252/310612.jpg
+    - size: mega
+      "#text": ""
+    "@attr": 
+      rank: "12"
   - name: Ghostface Killah
     url: http://www.last.fm/music/Ghostface+Killah
     mbid: 3b39abeb-0064-4eed-9ddd-ee47a45c54cb
@@ -234,7 +252,7 @@ topartists:
     - size: mega
       "#text": ""
     "@attr": 
-      rank: "13"
+      rank: "14"
   - name: The Beatles
     url: http://www.last.fm/music/The+Beatles
     mbid: b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d
@@ -242,33 +260,15 @@ topartists:
     playcount: "44"
     image: 
     - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/4069917.jpg
+      "#text": http://userserve-ak.last.fm/serve/34/173094.jpg
     - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/4069917.jpg
+      "#text": http://userserve-ak.last.fm/serve/64/173094.jpg
     - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/4069917.jpg
+      "#text": http://userserve-ak.last.fm/serve/126/173094.jpg
     - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/4069917.jpg
+      "#text": http://userserve-ak.last.fm/serve/252/173094.jpg
     - size: mega
-      "#text": ""
-    "@attr": 
-      rank: "14"
-  - name: Robyn
-    url: http://www.last.fm/music/Robyn
-    mbid: 5a8e07d5-d932-4484-a7f7-e700793a9c94
-    streamable: "1"
-    playcount: "42"
-    image: 
-    - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/23016015.jpg
-    - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/23016015.jpg
-    - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/23016015.jpg
-    - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/23016015.jpg
-    - size: mega
-      "#text": http://userserve-ak.last.fm/serve/500/23016015/Robyn++003.jpg
+      "#text": http://userserve-ak.last.fm/serve/500/173094/The+Beatles.jpg
     "@attr": 
       rank: "15"
   - name: Moby
@@ -288,7 +288,25 @@ topartists:
     - size: mega
       "#text": http://userserve-ak.last.fm/serve/500/130045/Moby.jpg
     "@attr": 
-      rank: "15"
+      rank: "16"
+  - name: Robyn
+    url: http://www.last.fm/music/Robyn
+    mbid: 5a8e07d5-d932-4484-a7f7-e700793a9c94
+    streamable: "1"
+    playcount: "42"
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/34/23016015.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/64/23016015.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/126/23016015.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/252/23016015.jpg
+    - size: mega
+      "#text": http://userserve-ak.last.fm/serve/500/23016015/Robyn++003.jpg
+    "@attr": 
+      rank: "16"
   - name: Oasis
     url: http://www.last.fm/music/Oasis
     mbid: 39ab1aed-75e0-4140-bd47-540276886b60
@@ -305,24 +323,6 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/252/3399763.jpg
     - size: mega
       "#text": http://userserve-ak.last.fm/serve/500/3399763/Oasis.jpg
-    "@attr": 
-      rank: "17"
-  - name: Kent
-    url: http://www.last.fm/music/Kent
-    mbid: ffb2d3e3-a4cc-48cf-8fb0-f2f846e9d7b9
-    streamable: "1"
-    playcount: "37"
-    image: 
-    - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/310612.jpg
-    - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/310612.jpg
-    - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/310612.jpg
-    - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/310612.jpg
-    - size: mega
-      "#text": ""
     "@attr": 
       rank: "18"
   - name: High Contrast
@@ -523,24 +523,6 @@ topartists:
       "#text": ""
     "@attr": 
       rank: "28"
-  - name: Ryan Bates
-    url: http://www.last.fm/music/Ryan+Bates
-    mbid: ""
-    streamable: "0"
-    playcount: "23"
-    image: 
-    - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/5704036.png
-    - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/5704036.png
-    - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/5704036.png
-    - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/5704036.png
-    - size: mega
-      "#text": ""
-    "@attr": 
-      rank: "30"
   - name: Booka Shade
     url: http://www.last.fm/music/Booka+Shade
     mbid: 9940c604-2456-4193-a403-ab18420bc1e9
@@ -557,6 +539,24 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/252/20473835.jpg
     - size: mega
       "#text": http://userserve-ak.last.fm/serve/500/20473835/Booka+Shade++BLACK+AND+WHITE+TH.jpg
+    "@attr": 
+      rank: "30"
+  - name: Ryan Bates
+    url: http://www.last.fm/music/Ryan+Bates
+    mbid: ""
+    streamable: "0"
+    playcount: "23"
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/34/5704036.png
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/64/5704036.png
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/126/5704036.png
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/252/5704036.png
+    - size: mega
+      "#text": ""
     "@attr": 
       rank: "30"
   - name: Beastie Boys
@@ -602,15 +602,15 @@ topartists:
     playcount: "20"
     image: 
     - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/5801617.jpg
+      "#text": http://userserve-ak.last.fm/serve/34/317976.jpg
     - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/5801617.jpg
+      "#text": http://userserve-ak.last.fm/serve/64/317976.jpg
     - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/5801617.jpg
+      "#text": http://userserve-ak.last.fm/serve/126/317976.jpg
     - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/5801617.jpg
+      "#text": http://userserve-ak.last.fm/serve/252/317976.jpg
     - size: mega
-      "#text": http://userserve-ak.last.fm/serve/500/5801617/Radiohead+by+Kevin+Westenberg.jpg
+      "#text": ""
     "@attr": 
       rank: "34"
   - name: Calibre
@@ -631,24 +631,6 @@ topartists:
       "#text": ""
     "@attr": 
       rank: "34"
-  - name: Coldplay
-    url: http://www.last.fm/music/Coldplay
-    mbid: cc197bad-dc9c-440d-a5b5-d52ba2e14234
-    streamable: "1"
-    playcount: "19"
-    image: 
-    - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/5854.jpg
-    - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/5854.jpg
-    - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/5854.jpg
-    - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/5854.jpg
-    - size: mega
-      "#text": http://userserve-ak.last.fm/serve/500/5854/Coldplay.jpg
-    "@attr": 
-      rank: "36"
   - name: Curtis Mayfield
     url: http://www.last.fm/music/Curtis+Mayfield
     mbid: 4dca4bb2-23ba-4103-97e6-5810311db33a
@@ -665,6 +647,24 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/252/393055.jpg
     - size: mega
       "#text": ""
+    "@attr": 
+      rank: "36"
+  - name: Coldplay
+    url: http://www.last.fm/music/Coldplay
+    mbid: cc197bad-dc9c-440d-a5b5-d52ba2e14234
+    streamable: "1"
+    playcount: "19"
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/34/5854.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/64/5854.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/126/5854.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/252/5854.jpg
+    - size: mega
+      "#text": http://userserve-ak.last.fm/serve/500/5854/Coldplay.jpg
     "@attr": 
       rank: "36"
   - name: Misty in Roots
@@ -721,24 +721,6 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/500/395328/Looptroop.jpg
     "@attr": 
       rank: "38"
-  - name: The Avalanches
-    url: http://www.last.fm/music/The+Avalanches
-    mbid: a6623d39-2d8e-4f70-8242-0a9553b91e50
-    streamable: "1"
-    playcount: "17"
-    image: 
-    - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/273256.jpg
-    - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/273256.jpg
-    - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/273256.jpg
-    - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/273256.jpg
-    - size: mega
-      "#text": http://userserve-ak.last.fm/serve/500/273256/The+Avalanches.jpg
-    "@attr": 
-      rank: "41"
   - name: The Mighty Underdogs
     url: http://www.last.fm/music/The+Mighty+Underdogs
     mbid: ""
@@ -755,6 +737,24 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/252/15213299.jpg
     - size: mega
       "#text": http://userserve-ak.last.fm/serve/_/15213299/The+Mighty+Underdogs+mu2.jpg
+    "@attr": 
+      rank: "41"
+  - name: Led Zeppelin
+    url: http://www.last.fm/music/Led+Zeppelin
+    mbid: 678d88b2-87b0-403b-b63d-5da7465aecc3
+    streamable: "1"
+    playcount: "17"
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/34/23981001.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/64/23981001.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/126/23981001.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/252/23981001.jpg
+    - size: mega
+      "#text": http://userserve-ak.last.fm/serve/500/23981001/Led+Zeppelin+19700327_LA.jpg
     "@attr": 
       rank: "41"
   - name: "R\xC3\xB6yksopp"
@@ -775,22 +775,22 @@ topartists:
       "#text": ""
     "@attr": 
       rank: "41"
-  - name: Led Zeppelin
-    url: http://www.last.fm/music/Led+Zeppelin
-    mbid: 678d88b2-87b0-403b-b63d-5da7465aecc3
+  - name: The Avalanches
+    url: http://www.last.fm/music/The+Avalanches
+    mbid: a6623d39-2d8e-4f70-8242-0a9553b91e50
     streamable: "1"
     playcount: "17"
     image: 
     - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/279035.jpg
+      "#text": http://userserve-ak.last.fm/serve/34/273256.jpg
     - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/279035.jpg
+      "#text": http://userserve-ak.last.fm/serve/64/273256.jpg
     - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/279035.jpg
+      "#text": http://userserve-ak.last.fm/serve/126/273256.jpg
     - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/279035.jpg
+      "#text": http://userserve-ak.last.fm/serve/252/273256.jpg
     - size: mega
-      "#text": ""
+      "#text": http://userserve-ak.last.fm/serve/500/273256/The+Avalanches.jpg
     "@attr": 
       rank: "41"
   - name: Logistics
@@ -811,24 +811,6 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/500/5964370/Logistics+loggyok.jpg
     "@attr": 
       rank: "45"
-  - name: Ladytron
-    url: http://www.last.fm/music/Ladytron
-    mbid: b45335d1-5219-4262-a44d-936aa36eeaed
-    streamable: "1"
-    playcount: "16"
-    image: 
-    - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/31340509.jpg
-    - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/31340509.jpg
-    - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/31340509.jpg
-    - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/31340509.jpg
-    - size: mega
-      "#text": http://userserve-ak.last.fm/serve/500/31340509/Ladytron+a919182.jpg
-    "@attr": 
-      rank: "45"
   - name: London Elektricity
     url: http://www.last.fm/music/London+Elektricity
     mbid: 0356daee-ec48-4495-bc3e-460b8a5eacad
@@ -845,6 +827,24 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/252/7408107.jpg
     - size: mega
       "#text": ""
+    "@attr": 
+      rank: "45"
+  - name: Ladytron
+    url: http://www.last.fm/music/Ladytron
+    mbid: b45335d1-5219-4262-a44d-936aa36eeaed
+    streamable: "1"
+    playcount: "16"
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/34/31340509.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/64/31340509.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/126/31340509.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/252/31340509.jpg
+    - size: mega
+      "#text": http://userserve-ak.last.fm/serve/500/31340509/Ladytron+a919182.jpg
     "@attr": 
       rank: "45"
   - name: Yael Naim
@@ -883,22 +883,22 @@ topartists:
       "#text": http://userserve-ak.last.fm/serve/500/12940241/Roots+Manuva+noblur.jpg
     "@attr": 
       rank: "48"
-  - name: Felix da Housecat
-    url: http://www.last.fm/music/Felix+da+Housecat
-    mbid: b004d3c7-5402-4034-be67-13eeccc7b1af
+  - name: Groove Armada
+    url: http://www.last.fm/music/Groove+Armada
+    mbid: 35723b60-732e-4bd8-957f-320b416e7b7f
     streamable: "1"
     playcount: "13"
     image: 
     - size: small
-      "#text": http://userserve-ak.last.fm/serve/34/35442141.jpg
+      "#text": http://userserve-ak.last.fm/serve/34/21034361.jpg
     - size: medium
-      "#text": http://userserve-ak.last.fm/serve/64/35442141.jpg
+      "#text": http://userserve-ak.last.fm/serve/64/21034361.jpg
     - size: large
-      "#text": http://userserve-ak.last.fm/serve/126/35442141.jpg
+      "#text": http://userserve-ak.last.fm/serve/126/21034361.jpg
     - size: extralarge
-      "#text": http://userserve-ak.last.fm/serve/252/35442141.jpg
+      "#text": http://userserve-ak.last.fm/serve/252/21034361.jpg
     - size: mega
-      "#text": http://userserve-ak.last.fm/serve/500/35442141/Felix+da+Housecat+a801232.jpg
+      "#text": http://userserve-ak.last.fm/serve/500/21034361/Groove+Armada.jpg
     "@attr": 
       rank: "50"
   "@attr": 
