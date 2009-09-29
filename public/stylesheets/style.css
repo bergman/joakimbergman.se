@@ -5,7 +5,7 @@
 
 body {
 	color: white;
-	background: #000 url("../images/cappuccino.jpg") no-repeat 50% 100px;
+	background: #000 url("../images/cappuccino.jpg") no-repeat 50% 50px;
 	width: 600px;
 	margin: 100px auto 0 auto;
 	position: relative;
@@ -28,7 +28,7 @@ a img {
 
 div#twitter {
 	position: absolute;
-	top: 122px;
+	top: 72px;
 	left: 43px;
 }
 
@@ -165,23 +165,18 @@ div#twitter .message .bottomright {
 
 div#lyssna {
 	position: absolute;
-	top: 250px;
-	left: 0px;
+	top: 200px;
 	font-size: 1.4em;
 }
 
 div#lyssna ul#lastfm li {
 	display: inline;
-	list-style: none;
 }
 
 div#lyssna ul#lastfm li img {
 	opacity: 0.05;
 	margin: 9px;
-	-webkit-transition-property: opacity, -webkit-box-shadow;
-	-webkit-transition-duration: 0.4s;
-	-webkit-transition-timing-function: ease-in-out;
-	-webkit-box-shadow: #a58963 0 0 10px, #a58963 0 0 10px, #a58963 0 0 10px, #a58963 0 0 5px, #a58963 0 0 10px;
+	-webkit-transition: opacity 0.4s ease-in-out;
 	-webkit-border-radius: 24px;
 	-moz-border-radius: 24px;
 }
