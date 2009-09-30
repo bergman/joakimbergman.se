@@ -206,6 +206,7 @@ div#lyssna ul#lastfm li a {
 	text-align: right;
 	overflow: hidden;
 	font-weight: lighter;
+	border: 1px solid white;
 }
 
 div#lyssna ul#lastfm li a:hover {
