@@ -5,7 +5,7 @@
   <ul id="lastfm">
     <% @lastfm_artists.each_with_index do |artist, index| %>
       <li>
-        <a href="<%= artist["url"] %>" title="#<%= index + 1 %>: <%=h artist["name"] %>" style="background-image: url('http://userserve-ak.last.fm/serve/126s/<%= File.basename artist["image"][1]["#text"] %>')" ><%= index + 1 %></a>
+        <a href="<%= artist["url"] %>" title="<%=h artist["name"] %>" style="background-image: url('http://userserve-ak.last.fm/serve/126s/<%= File.basename artist["image"][1]["#text"] %>')" ><%= index + 1 %></a>
       </li>
     <% end %>
   </ul>
