@@ -184,7 +184,7 @@ div#lyssna ul#lastfm li a {
 	height: 126px;
 	opacity: 0.05;
 	filter: alpha(opacity=5);
-	margin: 8px;
+	margin: 12px;
 	-webkit-transition: opacity 0.4s ease-in-out;
 	-webkit-border-radius: 63px;
 	-moz-border-radius: 63px;
