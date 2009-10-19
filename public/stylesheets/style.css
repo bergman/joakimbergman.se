@@ -64,6 +64,11 @@ div#twitter .message .body {
 
 div#twitter .message .body a {
 	color: #68563e;
+	text-decoration: none;
+}
+
+div#twitter .message .body a:hover {
+	text-decoration: underline;
 }
 
 div#twitter .message .body .hash {
