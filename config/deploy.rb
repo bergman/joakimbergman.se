@@ -1,7 +1,7 @@
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
-set :application, "joakimbergman"
+set :application, "joakimbergman.se"
 set :use_sudo, false
 
 set :local_repository, "ssh://joakimbergman.se/srv/git/joakimbergman.se.git"
@@ -22,20 +22,41 @@ namespace :deploy do
     desc "#{t} task is a no-op with mod_rails"
     task t, :roles => :app do ; end
   end
-
-  after "update:code", :copy_config_files
-  after "update:code", :update_crontab
 end
 
-desc "Copy shared config files to new release"
-task :copy_config_files, :roles => :app do
-  %w(database.yml).each do |conf|
-    run "cp #{shared_path}/system/config/#{conf} #{release_path}/config/#{conf}"
+after "deploy:update_code" do
+end
+
+after "deploy" do
+  get_new_tweet
+  copy_cv
+  lastfm
+  update_crontab
+end
+
+desc "Symlink shared config files to new release"
+task :symlink_config_files, :roles => :app do
+  %w(database.yml).each do |file|
+    run "ln -ns #{shared_path}/system/config/#{file} #{current_path}/config/#{file}"
   end
 end
 
+desc "Get new tweet"
+task :get_new_tweet, :roles => :app do
+  run "cd #{current_path} && RAILS_ENV=production rake twitter:timeline"
+end
+
+desc "Copy CV"
+task :copy_cv, :roles => :app do
+  run "cp ~/cv-joakimbergman.pdf #{current_path}/public"
+end
+
+desc "lastfm"
+task :lastfm, :roles => :app do
+  run "cd #{current_path} && RAILS_ENV=production rake lastfm:artists"
+end
 
 desc "Update the crontab file"
 task :update_crontab, :roles => :app do
-  run "cd #{release_path} && whenever --update-crontab #{application}"
+  run "cd #{current_path} && whenever --update-crontab #{application}"
 end
