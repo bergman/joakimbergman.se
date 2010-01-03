@@ -28,7 +28,6 @@ end
 
 after "deploy" do
   get_new_tweet
-  copy_cv
   lastfm
   update_crontab
 end
