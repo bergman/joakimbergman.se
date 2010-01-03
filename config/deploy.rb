@@ -2,12 +2,11 @@ default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
 set :application, "joakimbergman.se"
-set :use_sudo, false
+#set :use_sudo, false
 
-set :local_repository, "ssh://joakimbergman.se/srv/git/joakimbergman.se.git"
-set :repository,  "file:///srv/git/joakimbergman.se.git"
+set :repository,  "git@github.com:bergman/joakimbergman.se.git"
 set :scm, :git
-
+ssh_options[:forward_agent] = true
 set :deploy_to, "/srv/www/#{application}"
 
 server "joakimbergman.se", :app, :web, :db, :primary => true
@@ -44,11 +43,6 @@ end
 desc "Get new tweet"
 task :get_new_tweet, :roles => :app do
   run "cd #{current_path} && RAILS_ENV=production rake twitter:timeline"
-end
-
-desc "Copy CV"
-task :copy_cv, :roles => :app do
-  run "cp ~/cv-joakimbergman.pdf #{current_path}/public"
 end
 
 desc "lastfm"
