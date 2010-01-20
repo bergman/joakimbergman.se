@@ -9,6 +9,19 @@
     <%= stylesheet_link_tag "reset", "style", :cache => true %>
   </head>
   <body>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-882149-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+      })();
+
+    </script>
     <h2>Utvecklare, DJ.</h2>
     <p>
       <a href="http://www.csc.kth.se/~joab/cv-joakimbergman.pdf" title="CV">CV</a>
@@ -32,24 +45,21 @@
       </div>
     </div>
     <div id="lyssna">
-      <h2>Lyssna</h2>
+      <h2>Lyssna på mig</h2>
       <p>
-        <a href="mixtapes/joakim_bergman-kort-mix-2009-11-06.mp3">Kort housemix 2009-11-06</a><br />
-        <a href="mixtapes/joakim_bergman-mixtape-2009-04-24.mp3">Mixtape 2009-04-24</a> = house → tech-house → techno (<a href="mixtapes/joakim_bergman-mixtape-2009-04-24.txt">låtlista</a>)
+        <a href="http://soundcloud.com/gipset/short-house-mix">Kort housemix 2009-11-06</a>
+        <div class="soundcloud">
+          <object height="81" width="100%">
+            <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fgipset%2Fshort-house-mix&amp;show_comments=true&amp;auto_play=false&amp;color=a58963"></param>
+            <param name="allowscriptaccess" value="always"></param>
+            <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fgipset%2Fshort-house-mix&amp;show_comments=true&amp;auto_play=false&amp;color=a58963" type="application/x-shockwave-flash" width="100%"></embed>
+          </object>
+        </div>
       </p>
+      <h2>Vad jag lyssnar på, enligt <a href="http://last.fm/user/jockebab/"><img src="/images/lastfm.png" alt="last.fm" title="last.fm"></a></h2>
       <p>
-        <a href="http://last.fm/user/jockebab/"><img src="/images/lastfm.png" alt="last.fm" title="last.fm"></a>
         <%= yield :lastfm %>
       </p>
     </div>
-    <script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
-    <script type="text/javascript" charset="utf-8">
-      //<![CDATA[
-      try {
-      	var pageTracker = _gat._getTracker("UA-882149-5");
-      	pageTracker._trackPageview();
-      } catch(err) {}
-      //]]>
-    </script>
   </body>
 </html>
