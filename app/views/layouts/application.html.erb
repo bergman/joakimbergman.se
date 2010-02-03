@@ -10,7 +10,6 @@
   </head>
   <body>
     <script type="text/javascript">
-
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-882149-5']);
       _gaq.push(['_trackPageview']);
@@ -20,12 +19,13 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
       })();
-
     </script>
-    <h2>Utvecklare, DJ.</h2>
-    <p>
-      <a href="http://www.csc.kth.se/~joab/cv-joakimbergman.pdf" title="CV">CV</a>
-    </p>
+    <div id="header">
+      <h1>I am a <abbr>Developer</abbr> <span class="ampersand">&amp;</span> <abbr>DJ</abbr> living in Stockholm, Sweden.</h1>
+      <p>
+        Take a look at my <a href="http://www.csc.kth.se/~joab/cv-joakimbergman.pdf" title="CV">CV</a>.
+      </p>
+    </div>
     <div id="twitter">
       <a href="http://twitter.com/gipset" id="twitter_link" name="twitter_link"></a>
       <div class="message">
@@ -45,9 +45,9 @@
       </div>
     </div>
     <div id="lyssna">
-      <h2>Lyssna på mig</h2>
+      <h2>Listen to me</h2>
       <p>
-        <a href="http://soundcloud.com/gipset/short-house-mix">Kort housemix 2009-11-06</a>
+        A short house mix I recorded on November 6th last year. Check it out on <a href="http://soundcloud.com/gipset/short-house-mix">SoundCloud</a>. It contains none of the artists listed below since records do not scrobble that well.
         <div class="soundcloud">
           <object height="81" width="100%">
             <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fgipset%2Fshort-house-mix&amp;show_comments=true&amp;auto_play=false&amp;color=a58963"></param>
@@ -56,7 +56,7 @@
           </object>
         </div>
       </p>
-      <h2>Vad jag lyssnar på, enligt <a href="http://last.fm/user/jockebab/"><img src="/images/lastfm.png" alt="last.fm" title="last.fm"></a></h2>
+      <h2>What I listen to, according to <a href="http://last.fm/user/jockebab/"><img src="/images/lastfm.png" alt="last.fm" title="last.fm"></a></h2>
       <p>
         <%= yield :lastfm %>
       </p>
