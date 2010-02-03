@@ -1,20 +1,17 @@
-/* @override 
-	http://joakimbergman.local/stylesheets/iphone.css?1265203756
-	http://joakimbergman.local/stylesheets/iphone.css?1265203816
-*/
-
 html {
-	margin: 10px;
 	background: #000;
-	font-size: 12px;
 }
 
 body {
-	width: auto;
-	margin: 0;
+	width: 320px;
+	margin: 10px;
 	background: #000;
 }
 
 #twitter, #lyssna, #lastfm {
 	display: none;
+}
+
+.ampersand {
+	font: normal normal 1em "Helvetica Neue", helvetica, arial, sans-serif;
 }
