@@ -64,7 +64,7 @@ div#twitter a#twitter_link {
 	background-position: left top;
 }
 
-div#twitter a#twitter_link:hover {
+div#twitter:hover a#twitter_link {
 	background-position: -48px 0px;
 }
 
