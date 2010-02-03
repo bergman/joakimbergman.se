@@ -1,11 +1,23 @@
-/* @override http://joakimbergman.local/stylesheets/iphone.css?1265203756 */
+/* @override 
+	http://joakimbergman.local/stylesheets/iphone.css?1265203756
+	http://joakimbergman.local/stylesheets/iphone.css?1265203816
+*/
+
+html {
+	padding: 0;
+	margin: 20px;
+}
 
 body {
+	margin: 0;
+	padding: 0;
 	background: #000;
+	width: auto;
 }
 
 #twitter .message {
-	display: block;
+	width: auto;
+	display: block !important;
 }
 
 #lyssna {
