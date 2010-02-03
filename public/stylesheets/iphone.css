@@ -1,0 +1,17 @@
+/* @override http://joakimbergman.local/stylesheets/iphone.css?1265203756 */
+
+body {
+	background: #000;
+}
+
+#twitter .message {
+	display: block;
+}
+
+#lyssna {
+	display: none;
+}
+
+#lastfm {
+	display: none;
+}
