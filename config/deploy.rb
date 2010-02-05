@@ -1,13 +1,13 @@
 default_run_options[:pty] = true
-#ssh_options[:forward_agent] = true
+ssh_options[:forward_agent] = true
 
 set :application, "joakimbergman.se"
-#set :use_sudo, false
-
 set :repository,  "git@github.com:bergman/joakimbergman.se.git"
 set :scm, :git
-#ssh_options[:forward_agent] = true
 set :deploy_to, "/srv/www/#{application}"
+set :branch, "master"
+set :deploy_via, :remote_cache
+set :git_shallow_clone, 1
 
 server "joakimbergman.se", :app, :web, :db, :primary => true
 
