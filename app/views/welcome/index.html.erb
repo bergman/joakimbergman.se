@@ -1,12 +1,12 @@
 <% content_for :tweet do %>
-  <%= auto_link(@tweet).gsub(/\B@(\w+)/, '@<a href="http://twitter.com/\1">\1</a>').gsub(/\B#(\w+)/, '<span class="hash">#\1</span>') %>
+  <%= auto_link(@tweet.text).gsub(/\B@(\w+)/, '@<a href="http://twitter.com/\1">\1</a>').gsub(/\B#(\w+)/, '<span class="hash">#\1</span>') %>
 <% end %>
 <% content_for :lastfm do %>
   <ul id="lastfm">
-    <% @lastfm_artists.each_with_index do |artist, index| %>
-      <li>
-        <a href="<%= artist["url"] %>" title="<%=h artist["name"] %>" style="background-image: url('<%= artist["image"][2]["#text"].gsub('/126/', '/126s/') %>')" ><%= index + 1 %></a>
-      </li>
+    <% @artists.each_with_index do |artist, rank| %>
+      <% content_tag_for :li, artist do %>
+        <%= link_to rank + 1, artist.url, :title => artist.name, :style => "background-image: url('#{artist.image}')" %>
+      <% end %>
     <% end %>
   </ul>
 <% end %>

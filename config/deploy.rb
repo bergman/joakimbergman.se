@@ -8,6 +8,7 @@ set :deploy_to, "/srv/www/#{application}"
 set :branch, "master"
 set :deploy_via, :remote_cache
 set :git_shallow_clone, 1
+set :use_sudo, false
 
 server "joakimbergman.se", :app, :web, :db, :primary => true
 
@@ -27,6 +28,7 @@ after "deploy:update_code" do
 end
 
 after "deploy" do
+  symlink_config_files
   get_new_tweet
   lastfm
   update_crontab

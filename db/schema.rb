@@ -9,9 +9,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100120004647) do
+ActiveRecord::Schema.define(:version => 20100227185734) do
+
+  create_table "artists", :force => true do |t|
+    t.string   "name"
+    t.string   "image"
+    t.string   "url"
+    t.integer  "rank"
+    t.integer  "plays"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "tweets", :force => true do |t|
+    t.integer  "status_id"
+    t.integer  "in_reply_to_user_id"
+    t.integer  "in_reply_to_status_id"
     t.string   "text"
     t.string   "in_reply_to_screen_name"
     t.datetime "tweeted_at"
