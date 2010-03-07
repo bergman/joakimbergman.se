@@ -29,9 +29,17 @@ end
 
 after "deploy" do
   symlink_config_files
+  symlink_database
   get_new_tweet
   lastfm
   update_crontab
+end
+
+desc "Symlink database to new release"
+task :symlink_database, :roles => :app do
+  %w(production.sqlite3).each do |file|
+    run "ln -ns #{shared_path}/system/db/#{file} #{current_path}/db/#{file}"
+  end
 end
 
 desc "Symlink shared config files to new release"
