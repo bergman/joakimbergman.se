@@ -1,5 +1,5 @@
 <% content_for :tweet do %>
-  <%= auto_link(@tweet.text).gsub(/\B@(\w+)/, '@<a href="http://twitter.com/\1">\1</a>').gsub(/\B#(\w+)/, '<span class="hash">#\1</span>') %>
+  <%= raw auto_link(@tweet.text).gsub(/\B@(\w+)/, '@<a href="http://twitter.com/\1">\1</a>').gsub(/\B#(\w+)/, '<span class="hash">#\1</span>') %>
 <% end %>
 <% content_for :lastfm do %>
   <ul id="lastfm">
