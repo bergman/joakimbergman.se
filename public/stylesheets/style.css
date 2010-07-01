@@ -6,6 +6,7 @@ body {
 	position: relative;
 	font: 62.5%/2em "Helvetica Neue", helvetica, arial, sans-serif;
 	font-weight: lighter;
+  text-rendering: optimizeLegibility;
 }
 
 a {
