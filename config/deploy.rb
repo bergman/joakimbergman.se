@@ -51,15 +51,15 @@ end
 
 desc "Get new tweet"
 task :get_new_tweet, :roles => :app do
-  run "cd #{current_path} && RAILS_ENV=production rake twitter:timeline"
+  run "cd #{current_path} && RAILS_ENV=production bundle exec rake twitter:timeline"
 end
 
 desc "lastfm"
 task :lastfm, :roles => :app do
-  run "cd #{current_path} && RAILS_ENV=production rake lastfm:artists"
+  run "cd #{current_path} && RAILS_ENV=production bundle exec rake lastfm:artists"
 end
 
 desc "Update the crontab file"
 task :update_crontab, :roles => :app do
-  run "cd #{current_path} && whenever --update-crontab #{application}"
+  run "cd #{current_path} && bundle exec whenever --update-crontab #{application}"
 end
