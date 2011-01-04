@@ -41,6 +41,10 @@ p + p {
 	font: italic 1.4em Baskerville, Palatino, Constantia, "Book Antiqua", serif;
 }
 
+audio {
+  width: 100%;
+}
+
 /* @group twitter */
 
 div#twitter {
